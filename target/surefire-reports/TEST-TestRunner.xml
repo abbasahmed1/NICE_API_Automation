@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestRunner" time="62.129" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestRunner" time="61.819" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\ahmed.abbas\.jdks\openjdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\AHMED~1.ABB\AppData\Local\Temp\surefire14846449649790813849\surefirebooter10567127932419830911.jar C:\Users\ahmed.abbas\AppData\Local\Temp\surefire14846449649790813849 2023-07-17T04-16-10_780-jvmRun1 surefire10556788718057574173tmp surefire_04575821121822965108tmp"/>
+    <property name="sun.java.command" value="C:\Users\AHMED~1.ABB\AppData\Local\Temp\surefire9863808459536720309\surefirebooter18127966410536524342.jar C:\Users\ahmed.abbas\AppData\Local\Temp\surefire9863808459536720309 2023-07-17T04-52-39_784-jvmRun1 surefire4343140113510059744tmp surefire_09353221252076739853tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ahmed.abbas\IdeaProjects\httpClient_Task\target\test-classes;C:\Users\ahmed.abbas\IdeaProjects\httpClient_Task\target\classes;C:\Users\ahmed.abbas\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\ahmed.abbas\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\ahmed.abbas\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ahmed.abbas\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\ahmed.abbas\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ahmed.abbas\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\ahmed.abbas\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\ahmed.abbas\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\ahmed.abbas\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\ahmed.abbas\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\AHMED~1.ABB\AppData\Local\Temp\surefire14846449649790813849\surefirebooter10567127932419830911.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\AHMED~1.ABB\AppData\Local\Temp\surefire9863808459536720309\surefirebooter18127966410536524342.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19+36-2238"/>
@@ -60,6 +60,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="postRequest" classname="TestRunner" time="61.416"/>
-  <testcase name="getRequest" classname="TestRunner" time="0.703"/>
+  <testcase name="postRequest" classname="TestRunner" time="61.122"/>
+  <testcase name="getRequest" classname="TestRunner" time="0.686"/>
 </testsuite>
