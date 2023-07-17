@@ -15,14 +15,13 @@ import utils.PropertiesHandling;
 public class HttpMethods {
     // HTTP client
     HttpClient client = HttpClient.newHttpClient();
-    // HTTP client
-    HttpClient client2 = HttpClient.newHttpClient();
+
 
     public Employee getRequest(int ID) throws Exception {
 
         // creating the request
 
-        HttpRequest request = HttpRequest.newBuilder()
+        HttpRequest requestGet = HttpRequest.newBuilder()
                 .GET()
                 .timeout(Duration.ofSeconds(10))
                 .uri(URI.create(PropertiesHandling.getProperty("get.employee.url") + "/" + ID))
@@ -34,7 +33,7 @@ public class HttpMethods {
 
         {
             try {
-                response = client.send(request, HttpResponse.BodyHandlers.ofString());
+                response = client.send(requestGet, HttpResponse.BodyHandlers.ofString());
             } catch (IOException | InterruptedException e) {
                 throw new RuntimeException(e);
             }
@@ -58,7 +57,7 @@ public class HttpMethods {
         String gsonRequest = gson.toJson(inputData);
 
         System.out.println(gsonRequest);
-        HttpRequest request = HttpRequest.newBuilder()
+        HttpRequest requestPost = HttpRequest.newBuilder()
                 .timeout(Duration.ofSeconds(10))
                 .uri(URI.create(PropertiesHandling.getProperty("post.employee.url")))
                 .header("Content-Type" ,"application/json" )
@@ -71,7 +70,7 @@ public class HttpMethods {
 
         {
             try {
-                response = client2.send(request, HttpResponse.BodyHandlers.ofString());
+                response = client.send(requestPost, HttpResponse.BodyHandlers.ofString());
             } catch (IOException | InterruptedException e) {
                 throw new RuntimeException(e);
             }

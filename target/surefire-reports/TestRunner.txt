@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestRunner
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.114 s <<< FAILURE! - in TestRunner
-getRequest  Time elapsed: 0.693 s  <<< ERROR!
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-	at TestRunner.getRequest(TestRunner.java:20)
-Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-	at TestRunner.getRequest(TestRunner.java:20)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 62.129 s - in TestRunner
